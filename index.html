@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        <div class="signin">
+            <div class="content">
+                <h2>Sign In</h2>
+                <form id="login-form">
+                    <div class="form">
+                        <div class="inputBox">
+                            <input type="text" id="username" required>
+                            <i>Username</i>
+                        </div>
+                        <div class="inputBox">
+                            
+                            <input type="password" id="password" required>
+                            <i>Password</i>
+                            <!-- Removed show password button -->
+                            <ul class="conditions-list">
+                                <li class="condition">At least 8 characters</li>
+                                <li  class="condition">At least one uppercase letter</li>
+                                <li  class="condition">At least one lowercase letter</li>
+                                <li  class="condition">At least one digit</li>
+                                <li  class="condition">At least one special character (e.g., @)</li>
+                            </ul>
+                            <div class="error-message">Please correct the errors above.</div>
+                            <div class="success-message">Good job! Password is valid.</div>
+                        </div>
+                        </div>
+                        <div class="links">
+                            <a href="#">Forgot Password</a>
+                            <a href="#">Signup</a>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" value="Login">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    
+    <script src="index.js"></script>
+</body>
+</html>
